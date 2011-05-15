@@ -33,7 +33,7 @@ static NSString *WANG_BLOG = @"http://blog.sina.com.cn/rss/1273972353.xml";
         
         NSString *plistPath = [[NSBundle mainBundle] pathForResource:@"BloggerList" ofType:@"plist"];
         NSDictionary *bloggerDict = [[NSDictionary alloc] initWithContentsOfFile:plistPath];
-        NSLog(@"%@",bloggerDict);
+       // NSLog(@"%@",bloggerDict);
         
         NSArray* blogArray = [bloggerDict allValues];
         for (id item in blogArray) {
@@ -43,7 +43,7 @@ static NSString *WANG_BLOG = @"http://blog.sina.com.cn/rss/1273972353.xml";
             [bloggerList addObject:blog];
         }
         
-        NSLog(@"%@",bloggerList);
+      //  NSLog(@"%@",bloggerList);
         
     }
 }

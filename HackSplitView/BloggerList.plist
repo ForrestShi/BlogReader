@@ -16,5 +16,74 @@
 		<key>Title</key>
 		<string>24小时音乐</string>
 	</dict>
+	<key>New item - 3</key>
+	<dict>
+		<key>Link</key>
+		<string>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;dict&gt;
+	&lt;key&gt;Link&lt;/key&gt;
+	&lt;string&gt;http://blog.sina.com.cn/rss/1191258123.xml&lt;/string&gt;
+	&lt;key&gt;Title&lt;/key&gt;
+	&lt;string&gt;韩寒新浪博客&lt;/string&gt;
+&lt;/dict&gt;
+&lt;/plist&gt;
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;dict&gt;
+	&lt;key&gt;Link&lt;/key&gt;
+	&lt;string&gt;http://blog.sina.com.cn/rss/1191258123.xml&lt;/string&gt;
+	&lt;key&gt;Title&lt;/key&gt;
+	&lt;string&gt;韩寒新浪博客&lt;/string&gt;
+&lt;/dict&gt;
+&lt;/plist&gt;
+http://blog.sina.com.cn/rss/1190363061.xml</string>
+		<key>Title</key>
+		<string>老徐</string>
+	</dict>
+	<key>New item - 4</key>
+	<dict>
+		<key>Link</key>
+		<string>http://blog.sina.com.cn/rss/1189591617.xml</string>
+		<key>Title</key>
+		<string>李承鹏</string>
+	</dict>
+	<key>New item - 5</key>
+	<dict>
+		<key>Link</key>
+		<string>http://blog.sina.com.cn/rss/1292400222.xml</string>
+		<key>Title</key>
+		<string>木子李</string>
+	</dict>
+	<key>New item - 6</key>
+	<dict>
+		<key>Link</key>
+		<string>http://blog.sina.com.cn/rss/1092672395.xml</string>
+		<key>Title</key>
+		<string>郎咸平</string>
+	</dict>
+	<key>New item - 7</key>
+	<dict>
+		<key>Link</key>
+		<string>http://blog.sina.com.cn/rss/1182389073.xml</string>
+		<key>Title</key>
+		<string>任志强</string>
+	</dict>
+	<key>New item - 8</key>
+	<dict>
+		<key>Link</key>
+		<string>http://blog.sina.com.cn/rss/1197931472.xml</string>
+		<key>Title</key>
+		<string>伊能静 靜靜的海洋</string>
+	</dict>
+	<key>New item - 9</key>
+	<dict>
+		<key>Link</key>
+		<string>http://blog.sina.com.cn/rss/1194868525.xml</string>
+		<key>Title</key>
+		<string>张颐武的BLOG</string>
+	</dict>
 </dict>
 </plist>

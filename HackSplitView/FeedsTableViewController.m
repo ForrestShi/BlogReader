@@ -81,7 +81,7 @@
 
 - (void)requestFailed:(ASIHTTPRequest *)request {
     NSError *error = [request error];
-    NSLog(@"Error: %@", [error description]);
+    //NSLog(@"Error: %@", [error description]);
     //  rssRequestFailed = YES;
     [self.tableView reloadData];
 }
@@ -217,7 +217,7 @@
      */
      FeedItem *item = [feedsArray objectAtIndex:indexPath.row];
     
-    NSLog(@"feedItem %@",item.link);
+    //NSLog(@"feedItem %@",item.link);
     if (!self.detailViewController) {
         self.detailViewController = [[DetailViewController alloc] initWithNibName:@"DetailViewController" bundle:nil];
     }
@@ -225,6 +225,17 @@
     
     //[self.detailViewController.webView loadRequest:[NSURLRequest requestWithURL: [NSURL URLWithString:item.link] ]];
 
+    UILabel *titleLable = [self.detailViewController.view viewWithTag:1001];
+    titleLable.text = item.title;
+    
+    UILabel *dateLable = [self.detailViewController.view viewWithTag:1002];
+    NSDateFormatter* formatter = [[NSDateFormatter alloc] init];
+    [formatter setDateFormat:@"yyyy-MM-dd"];
+    NSString* date = [formatter stringFromDate:item.pubDate];
+    [formatter release];
+    
+    dateLable.text = date;
+    
     [self.detailViewController.webView loadHTMLString:item.description baseURL:nil];
 
     
