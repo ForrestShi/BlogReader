@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>New item</key>
+	<dict>
+		<key>Link</key>
+		<string>http://blog.sina.com.cn/rss/1191258123.xml</string>
+		<key>Title</key>
+		<string>韩寒新浪博客</string>
+	</dict>
+	<key>New item - 2</key>
+	<dict>
+		<key>Link</key>
+		<string>http://blog.sina.com.cn/rss/2098176472.xml</string>
+		<key>Title</key>
+		<string>24小时音乐</string>
+	</dict>
+</dict>
+</plist>
